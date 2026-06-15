@@ -1,0 +1,27 @@
+# Virtual Environment
+venv/
+env/
+.env
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Test Files Generated
+test_users.json
+test_mahasiswa.json
+test_pertemuan.json
+test_penilaian.json
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+
+# Jika tidak ingin push database asli ke GitHub (Opsional, hapus # jika ingin di-ignore)
+# data/mahasiswa.json
+# data/users.json
+# data/pertemuan.json
+# data/penilaian.json
