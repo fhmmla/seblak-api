@@ -12,6 +12,22 @@ app = FastAPI(
     version="1.0.0"
 )
 
+@app.get("/")
+def read_root():
+    return {
+        "message": "Selamat datang di SEBLAK API 🍜",
+        "kisi_kisi": "Sistem Evaluasi Belajar Lab Akademik & Kelas",
+        "author": "Fahmi Maulana Fadila (241011450401)",
+        "fitur_unggulan": [
+            "Manajemen Data Mahasiswa (CRUD)",
+            "Sistem Penilaian Praktikum Otomatis (Timer backend 100% akurat)",
+            "Pencarian (Linear & Sequential & Binary Search)",
+            "Pengurutan (Insertion & Selection Sort)",
+            "Keamanan dengan JWT Token & RBAC (Dosen/Aslab)"
+        ],
+        "panduan_api": "Buka URL endpoint /docs untuk melihat dokumentasi interaktif Swagger UI"
+    }
+
 # ==========================================
 # AUTHENTICATION ROUTE
 # ==========================================
