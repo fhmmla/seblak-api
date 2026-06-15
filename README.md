@@ -12,6 +12,9 @@
 
 **SEBLAK (Sistem Evaluasi Belajar Lab Akademik & Kelas)** adalah **Backend REST API** untuk aplikasi Manajemen Data Mahasiswa terpadu yang dibangun menggunakan **FastAPI (Python)**. Selain menyediakan layanan CRUD mahasiswa biasa, SEBLAK berinovasi dengan fitur Penilaian Praktikum Otomatis (Timer & Ceklis), autentikasi JWT, role-based access control (RBAC), serta menerapkan berbagai konsep algoritma (Searching, Sorting) dan pemrograman berorientasi objek (OOP) sesuai dengan arahan tugas UAS.
 
+🔗 **Repository:** [https://github.com/fhmmla/seblak-api](https://github.com/fhmmla/seblak-api)  
+⚖️ **Lisensi:** MIT License
+
 > **Catatan:** Project ini hanya mencakup sisi **Backend (API)**. Frontend akan dikembangkan secara terpisah.
 
 ---
