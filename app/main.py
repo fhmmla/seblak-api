@@ -65,7 +65,9 @@ def get_all_users():
     return JSONManager.read_users()
 
 @app.delete("/users/{username}", dependencies=[Depends(require_dosen)])
-def delete_user(username: str):
+def delete_user(username: str, current_user: dict = Depends(get_current_user)):
+    if username == current_user["username"]:
+        raise HTTPException(status_code=400, detail="Tidak dapat menghapus akun sendiri")
     users = JSONManager.read_users()
     new_users = [u for u in users if u["username"] != username]
     if len(new_users) == len(users):
