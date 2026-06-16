@@ -64,6 +64,15 @@ def create_user(user: UserCreate):
 def get_all_users():
     return JSONManager.read_users()
 
+@app.delete("/users/{username}", dependencies=[Depends(require_dosen)])
+def delete_user(username: str):
+    users = JSONManager.read_users()
+    new_users = [u for u in users if u["username"] != username]
+    if len(new_users) == len(users):
+        raise HTTPException(status_code=404, detail="User tidak ditemukan")
+    JSONManager.write_users(new_users)
+    return {"message": f"User '{username}' berhasil dihapus"}
+
 # ==========================================
 # MAHASISWA CRUD ROUTES (DOSEN & ASLAB BISA AKSES)
 # ==========================================

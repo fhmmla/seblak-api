@@ -1,8 +1,14 @@
 [
-  {
-    "nim": "241011450401",
-    "nama": "Fahmi Maulana Fadila",
-    "jurusan": "Teknik Informatika S1",
-    "kelas": "03TPLE005"
-  }
+    {
+        "nim": "241011450401",
+        "nama": "Fahmi Maulana Fadila",
+        "jurusan": "Teknik Informatika S1",
+        "kelas": "03TPLE005"
+    },
+    {
+        "nama": "Abdul Goni Murod",
+        "nim": "241011450113",
+        "jurusan": "Teknik Informatika S1",
+        "kelas": "03TPLE005"
+    }
 ]
