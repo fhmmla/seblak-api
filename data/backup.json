@@ -1,0 +1,27 @@
+{
+    "timestamp": "2026-06-17T10:10:45.830516",
+    "users": [
+        {
+            "username": "dosen_alpro",
+            "role": "dosen"
+        },
+        {
+            "username": "aslab_alpro",
+            "role": "aslab"
+        }
+    ],
+    "mahasiswas": [
+        {
+            "nim": "241011450401",
+            "nama": "Fahmi Maulana Fadila",
+            "jurusan": "Teknik Informatika S1",
+            "kelas": "03TPLE005"
+        },
+        {
+            "nim": "241011450113",
+            "nama": "Abdul Goni Murod",
+            "jurusan": "Teknik Informatika S1",
+            "kelas": "03TPLE005"
+        }
+    ]
+}
