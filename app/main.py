@@ -362,3 +362,8 @@ def get_penilaian_per_pertemuan(id: int, current_user: UserDB = Depends(get_curr
 def get_top_mahasiswa(limit: int = 10, current_user: UserDB = Depends(get_current_user), db: Session = Depends(get_db)):
     """Ambil top mahasiswa dengan rating bintang (ceklis) terbanyak."""
     return DatabaseManager.get_top_mahasiswa(db, limit)
+
+@app.get("/ping")
+def ping_server():
+    """Endpoint ringan untuk membangunkan server Render dari mode sleep."""
+    return {"status": "ok", "message": "Server is awake"}
