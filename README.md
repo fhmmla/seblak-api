@@ -15,6 +15,8 @@
 Project ini dirancang sedemikian rupa untuk memenuhi semua kriteria dan arahan tugas UAS mata kuliah Algoritma dan Pemrograman II, termasuk penerapan konsep algoritma (Searching, Sorting) dan Pemrograman Berorientasi Objek (OOP).
 
 🔗 **Repository:** [https://github.com/fhmmla/seblak-api](https://github.com/fhmmla/seblak-api)  
+🌍 **Live Demo Frontend:** [https://seblak-pedas.vercel.app/](https://seblak-pedas.vercel.app/)  
+⚙️ **Live API Backend:** [https://seblak-api.onrender.com/](https://seblak-api.onrender.com/)  
 ⚖️ **Lisensi:** MIT License
 
 > **Catatan:** Project ini berfokus pada sisi **Backend (API)**.
